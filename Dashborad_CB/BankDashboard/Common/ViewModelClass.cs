@@ -15,7 +15,12 @@ namespace BankDashboard.Common
             public string groupname { get; set; }
             public string groupdesc { get; set; }
         }
-
+        public class FilterClass
+        {
+            public string Fromdate { get; set; }
+            public string Todate { get; set; }
+            public string FeedbackID { get; set; }
+        }
         //public class ViewUserDetail
         //{
         //    public string UserName { get; set; }

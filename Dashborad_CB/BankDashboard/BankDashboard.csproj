@@ -142,7 +142,23 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CBModel\CBDB.cs" />
+    <Compile Include="CBModel\Custom_GLReconciliationTable.cs" />
+    <Compile Include="CBModel\Matched_FinancialTransaction.cs" />
+    <Compile Include="CBModel\NonCustom_GLReconciliationTable.cs" />
+    <Compile Include="CBModel\tbl_AuthCode.cs" />
+    <Compile Include="CBModel\tbl_AuthCodeTransactionInfo.cs" />
+    <Compile Include="CBModel\tbl_IssuingIncomingVISA.cs" />
+    <Compile Include="CBModel\tbl_IssuingOutgoingVISA.cs" />
+    <Compile Include="CBModel\tbl_MasterCardAcquiring.cs" />
+    <Compile Include="CBModel\tbl_MasterCardIssuing.cs" />
+    <Compile Include="CBModel\tbl_UnassignedTickets.cs" />
+    <Compile Include="CBModel\tbl_VisaAcquiringIncoming.cs" />
+    <Compile Include="CBModel\tbl_VisaAcquiringOutgoing.cs" />
+    <Compile Include="CBModel\tbl_WeCareReactive.cs" />
+    <Compile Include="CBModel\Unmatched_FinancialTransaction.cs" />
     <Compile Include="Common\ADManager.cs" />
+    <Compile Include="Common\CBHelper.cs" />
     <Compile Include="Common\FDHelper.cs" />
     <Compile Include="Common\FDViewModelClass.cs" />
     <Compile Include="Common\MvcHelper.cs" />
@@ -316,6 +332,7 @@
     <Content Include="Images\casedetail.png" />
     <Content Include="Images\center-logo.png" />
     <Content Include="Images\dashboard.png" />
+    <Content Include="Images\detail.png" />
     <Content Include="Images\exl.png" />
     <Content Include="Images\ham.png" />
     <Content Include="Images\logo-bank.jpg" />
@@ -325,6 +342,7 @@
     <Content Include="Images\report1.png" />
     <Content Include="Images\umtran.png" />
     <Content Include="Images\user1.png" />
+    <Content Include="Images\view.png" />
     <Content Include="Images\wc.png" />
     <Content Include="JavaScript\CryptoJS\crypto-js.js" />
     <Content Include="JavaScript\mdb\mdb.min.js" />
@@ -648,6 +666,9 @@
     <Content Include="Views\Shared\_CBLayout.cshtml" />
     <Content Include="Views\CB\Index.cshtml" />
     <Content Include="Views\CB\WC.cshtml" />
+    <Content Include="Views\CB\CaseHistory.cshtml" />
+    <Content Include="Views\CB\MatchedFinTransaction.cshtml" />
+    <Content Include="Views\CB\UnmatchedFinTransaction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

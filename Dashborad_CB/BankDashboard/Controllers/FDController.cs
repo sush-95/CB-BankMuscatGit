@@ -261,8 +261,6 @@ namespace BankDashboard.Controllers
 
                 System.Web.HttpContext.Current.Response.Write("</Td>");
 
-
-
                 System.Web.HttpContext.Current.Response.Write("<Td>");
 
                 System.Web.HttpContext.Current.Response.Write(pdata.ProfitPaymentFrequency);
@@ -335,12 +333,7 @@ namespace BankDashboard.Controllers
                 System.Web.HttpContext.Current.Response.Write(pdata.PaymentMethod);
 
                 System.Web.HttpContext.Current.Response.Write("</Td>");
-
-                //System.Web.HttpContext.Current.Response.Write("<Td>");
-
-                //System.Web.HttpContext.Current.Response.Write(pdata.RequestStatus);
-
-                //System.Web.HttpContext.Current.Response.Write("</Td>");
+              
 
                 System.Web.HttpContext.Current.Response.Write("</TR>");
 

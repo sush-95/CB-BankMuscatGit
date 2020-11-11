@@ -26,7 +26,7 @@
         .submenu a.active {
             background-color: #ea5082;
             color: white;
-            font-size: 17px;
+            font-size: 16px;
             font-family: inherit;
             font-weight: bold;
             text-decoration: none;
@@ -59,7 +59,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color:#f8fff5;height: 67px">
         <div class="col-md-2">
-            <img src="~/Images/logo-bank.jpg" class="card-img" style="width: 186px; height: 108px;margin-top: -20px;margin-left: -14px;" />
+            <img src="~/Images/logo-bank.jpg" class="card-img" style="width: 169px;height: 108px;margin-top: -11px; margin-left: -14px;" />
         </div>
         <div class="col-md-1">
             <a class="navbar-brand" href="#" id="toggleMenu" style="margin-left: -26px;">
@@ -120,17 +120,17 @@
                         </a>
                         <ul class="submenu" id="rep1">
                             <li>
-                                <a href="#home">
+                                <a href="/app/CB/CaseHistory" class="@ViewBag.casehistrory">
                                     <img src="~/Images/casedetail.png" />Case History
                                 </a>
                             </li>
                             <li>
-                                <a href="#home">
+                                <a href="/app/CB/MatchedFinTransaction" class="@ViewBag.matchedTran">
                                     <img src="~/Images/mtran.png" height="26" />Matched Tran
                                 </a>
                             </li>
                             <li>
-                                <a href="#home">
+                                <a href="/app/CB/UnmatchedFinTransaction" class="@ViewBag.UnmatchedTran">
                                     <img src="~/Images/umtran.png" height="26" />Unmatched Tran
                                 </a>
                             </li>
